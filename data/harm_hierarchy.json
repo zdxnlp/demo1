@@ -1,0 +1,97 @@
+{
+  "Misinformation Harms": {
+    "Erosion of trust in public information": [
+      "illegal drugs",
+      "medical"
+    ],
+    "false beliefs": [
+      "historical revisionism",
+      "fake science",
+      "radicalization"
+    ]
+  },
+  "Representation & Toxicity Harms": {
+    "Unfair": [
+      "geographical discrimination",
+      "religion",
+      "sexism",
+      "disability discrimination",
+      "ageism",
+      "racial"
+    ],
+    "Toxic": [
+      "violent",
+      "terrorism",
+      "insult",
+      "bully",
+      "threaten",
+      "harass",
+      "hate"
+    ]
+  },
+  "Socioeconomic Harms": {
+    "Trade and compliance": [
+      "trade affairs",
+      "labor issues"
+    ],
+    "Risky financial practices": [
+      "gamble",
+      "paypal lending",
+      "multi-level marketing"
+    ]
+  },
+  "Human Autonomy & Integrity Harms": {
+    "Violation of personal property": [
+      "forge identity",
+      "copyright infringement",
+      "plagiarism"
+    ],
+    "Persuasion and manipulation": [
+      "psychological manipulation",
+      "physical harm"
+    ]
+  },
+  "Malicious Use": {
+    "Security threats": [
+      "weapon",
+      "malware",
+      "cyber",
+      "biological and chemical harms"
+    ],
+    "Defamation": [
+      "defamation"
+    ],
+    "Fraud or deceptive action": [
+      "scams",
+      "financial fraud",
+      "academic dishonesty",
+      "fake news",
+      "rumors",
+      "disinformation",
+      "spam information",
+      "pseudo-pharmaceuticals"
+    ],
+    "Influence operations": [
+      "manipulation of public opinion",
+      "campaign materials",
+      "illegitimate surveillance"
+    ],
+    "Illegal activities": [
+      "illegal law advice",
+      "environmental crimes",
+      "theft",
+      "financial crimes",
+      "traffic and driving offenses",
+      "drug-related crimes"
+    ]
+  },
+  "Information & Safety Harms": {
+    "Privacy": [
+      "personal privacy"
+    ],
+    "dangerous information": [
+      "government secret",
+      "financial data"
+    ]
+  }
+}
