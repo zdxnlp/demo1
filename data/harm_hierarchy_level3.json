@@ -1,0 +1,267 @@
+[
+  {
+    "level1": "Misinformation Harms",
+    "level2": "Erosion of trust in public information",
+    "level3": "illegal drugs"
+  },
+  {
+    "level1": "Misinformation Harms",
+    "level2": "Erosion of trust in public information",
+    "level3": "medical"
+  },
+  {
+    "level1": "Misinformation Harms",
+    "level2": "false beliefs",
+    "level3": "historical revisionism"
+  },
+  {
+    "level1": "Misinformation Harms",
+    "level2": "false beliefs",
+    "level3": "fake science"
+  },
+  {
+    "level1": "Misinformation Harms",
+    "level2": "false beliefs",
+    "level3": "radicalization"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Unfair",
+    "level3": "geographical discrimination"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Unfair",
+    "level3": "religion"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Unfair",
+    "level3": "sexism"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Unfair",
+    "level3": "disability discrimination"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Unfair",
+    "level3": "ageism"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Unfair",
+    "level3": "racial"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Toxic",
+    "level3": "violent"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Toxic",
+    "level3": "terrorism"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Toxic",
+    "level3": "insult"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Toxic",
+    "level3": "bully"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Toxic",
+    "level3": "threaten"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Toxic",
+    "level3": "harass"
+  },
+  {
+    "level1": "Representation & Toxicity Harms",
+    "level2": "Toxic",
+    "level3": "hate"
+  },
+  {
+    "level1": "Socioeconomic Harms",
+    "level2": "Trade and compliance",
+    "level3": "trade affairs"
+  },
+  {
+    "level1": "Socioeconomic Harms",
+    "level2": "Trade and compliance",
+    "level3": "labor issues"
+  },
+  {
+    "level1": "Socioeconomic Harms",
+    "level2": "Risky financial practices",
+    "level3": "gamble"
+  },
+  {
+    "level1": "Socioeconomic Harms",
+    "level2": "Risky financial practices",
+    "level3": "paypal lending"
+  },
+  {
+    "level1": "Socioeconomic Harms",
+    "level2": "Risky financial practices",
+    "level3": "multi-level marketing"
+  },
+  {
+    "level1": "Human Autonomy & Integrity Harms",
+    "level2": "Violation of personal property",
+    "level3": "forge identity"
+  },
+  {
+    "level1": "Human Autonomy & Integrity Harms",
+    "level2": "Violation of personal property",
+    "level3": "copyright infringement"
+  },
+  {
+    "level1": "Human Autonomy & Integrity Harms",
+    "level2": "Violation of personal property",
+    "level3": "plagiarism"
+  },
+  {
+    "level1": "Human Autonomy & Integrity Harms",
+    "level2": "Persuasion and manipulation",
+    "level3": "psychological manipulation"
+  },
+  {
+    "level1": "Human Autonomy & Integrity Harms",
+    "level2": "Persuasion and manipulation",
+    "level3": "physical harm"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Security threats",
+    "level3": "weapon"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Security threats",
+    "level3": "malware"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Security threats",
+    "level3": "cyber"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Security threats",
+    "level3": "biological and chemical harms"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Defamation",
+    "level3": "defamation"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Fraud or deceptive action",
+    "level3": "scams"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Fraud or deceptive action",
+    "level3": "financial fraud"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Fraud or deceptive action",
+    "level3": "academic dishonesty"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Fraud or deceptive action",
+    "level3": "fake news"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Fraud or deceptive action",
+    "level3": "rumors"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Fraud or deceptive action",
+    "level3": "disinformation"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Fraud or deceptive action",
+    "level3": "spam information"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Fraud or deceptive action",
+    "level3": "pseudo-pharmaceuticals"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Influence operations",
+    "level3": "manipulation of public opinion"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Influence operations",
+    "level3": "campaign materials"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Influence operations",
+    "level3": "illegitimate surveillance"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Illegal activities",
+    "level3": "illegal law advice"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Illegal activities",
+    "level3": "environmental crimes"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Illegal activities",
+    "level3": "theft"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Illegal activities",
+    "level3": "financial crimes"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Illegal activities",
+    "level3": "traffic and driving offenses"
+  },
+  {
+    "level1": "Malicious Use",
+    "level2": "Illegal activities",
+    "level3": "drug-related crimes"
+  },
+  {
+    "level1": "Information & Safety Harms",
+    "level2": "Privacy",
+    "level3": "personal privacy"
+  },
+  {
+    "level1": "Information & Safety Harms",
+    "level2": "dangerous information",
+    "level3": "government secret"
+  },
+  {
+    "level1": "Information & Safety Harms",
+    "level2": "dangerous information",
+    "level3": "financial data"
+  }
+]
