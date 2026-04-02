@@ -19,7 +19,7 @@ class ScenarioGenerator:
         self.harm_hierarchy = self._load_harm_hierarchy()
 
     def _load_harm_hierarchy(self) -> dict:
-        path = os.path.join(os.getcwd(), "data", "harm_hierarchy.json")
+        path = os.path.join(os.getcwd(), "../data", "harm_hierarchy.json")
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
 
@@ -52,7 +52,7 @@ class ScenarioGenerator:
         return response.content.strip().split('\n')
 
 def save_scenarios(scenarios: List[str]):
-    history_dir = Path("./memory/history")
+    history_dir = Path("../memory/history")
     history_dir.mkdir(parents=True, exist_ok=True)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

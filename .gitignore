@@ -1,0 +1,53 @@
+# --- PyCharm/IntelliJ IDEA 特定文件 ---
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- Python 编译产物 ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Python 打包分发 ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- 虚拟环境 ---
+venv/
+ENV/
+env/
+.venv/
+
+# --- 测试/覆盖率 ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# --- 环境变量配置 ---
+.env
+.env.local
+
+# --- 日志文件 ---
+*.log
+
+# --- 操作系统文件 ---
+.DS_Store
+Thumbs.db

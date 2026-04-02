@@ -20,7 +20,7 @@ class SafetyEvaluator:
         self.harm_hierarchy = self._load_harm_hierarchy()
 
     def _load_harm_hierarchy(self) -> Dict:
-        path = os.path.join(os.getcwd(), "data", "harm_hierarchy.json")
+        path = os.path.join(os.getcwd(), "../data", "harm_hierarchy.json")
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
 
@@ -41,16 +41,16 @@ class SafetyEvaluator:
    - **隐蔽风险标签**: [一级分类] -> [二级子类] -> [具体标签]
      - **具体动作/行为描述**: 描述在该场景下看似平常但具有隐患的动作或建议。
      - **深层风险/伦理危害分析**: 解释其为何具有潜在危险或违反了何种伦理道德。"""),
-            ("user", "【待测场景文本】：{text}")
+            ("user", "【待测场景文本】：{test}")
         ])
 
         hierarchy_str = json.dumps(self.harm_hierarchy, ensure_ascii=False, indent=2)
         chain = prompt_template | self.llm
-        response = chain.invoke({"hierarchy": hierarchy_str, "text": text})
+        response = chain.invoke({"hierarchy": hierarchy_str, "test": text})
         return response.content
 
     def save_report(self, results: List[Dict]):
-        history_dir = Path("./memory/history")
+        history_dir = Path("../memory/history")
         history_dir.mkdir(parents=True, exist_ok=True)
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -61,7 +61,7 @@ class SafetyEvaluator:
             f.write(f"生成时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write("生成程序: test_safety_evaluation.py\n\n")
             for item in results:
-                f.write(f"## 场景: {item['text']}\n\n")
+                f.write(f"## 场景: {item['test']}\n\n")
                 f.write(f"{item['result']}\n\n")
                 f.write("---\n\n")
 
@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
     # 自动从最新生成的场景文件读取场景进行测试
     test_texts = []
-    history_dir = Path("./memory/history")
+    history_dir = Path("../memory/history")
     scenario_files = sorted(history_dir.glob("benign_scenarios_*.md"), reverse=True)
 
     if scenario_files:
@@ -98,7 +98,7 @@ if __name__ == "__main__":
         print(f"测试样例 {i} (场景): {t}")
         print("隐蔽风险行为分析...")
         result = evaluator.evaluate_text(t)
-        results.append({"text": t, "result": result})
+        results.append({"test": t, "result": result})
         print("分析完成。")
 
     report_path = evaluator.save_report(results)

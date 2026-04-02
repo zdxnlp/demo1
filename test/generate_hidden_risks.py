@@ -36,7 +36,7 @@ if __name__ == "__main__":
     print("正在生成隐蔽风险描述...")
     results = generate_hidden_risks(20)
 
-    history_dir = Path("./memory/history")
+    history_dir = Path("../memory/history")
     history_dir.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     file_path = history_dir / f"hidden_risks_v2_{timestamp}.md"
