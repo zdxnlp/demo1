@@ -50,7 +50,7 @@ class SafetyEvaluator:
         return response.content
 
     def save_report(self, results: List[Dict]):
-        history_dir = Path("../memory/history")
+        history_dir = Path("demo1/memory/history")
         history_dir.mkdir(parents=True, exist_ok=True)
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
